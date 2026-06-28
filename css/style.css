@@ -1095,7 +1095,7 @@ footer p { color: var(--text-dim); font-size: 0.85rem; }
   .bento.size-wide   { grid-column: span 4; }
   .bento.size-square { grid-column: span 2; }
   .gallery-grid { grid-template-columns: repeat(3, 1fr); }
-  .hero-inner { grid-template-columns: 1fr; gap: 32px; justify-content: start; padding-left: 0; border: solid greenyellow 2px;}
+  .hero-inner { grid-template-columns: 1fr; gap: 32px; justify-content: start; padding-left: 0; border: solid orange 2px;}
   .hero-stat {height: 45vh; width: 30vh;}
   .skills-grid { grid-template-columns: repeat(3, 1fr); }
   .hero-scroll {opacity: 0;}
