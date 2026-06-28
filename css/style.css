@@ -1093,7 +1093,7 @@ footer p { color: var(--text-dim); font-size: 0.85rem; }
   .bento.size-wide   { grid-column: span 4; }
   .bento.size-square { grid-column: span 2; }
   .gallery-grid { grid-template-columns: repeat(3, 1fr); }
-  .hero-inner { grid-template-columns: 1fr; gap: 32px; justify-content: start; padding-left: 6vh;}
+  .hero-inner { grid-template-columns: 1fr; gap: 32px; justify-content: start; padding-left: 6vh; border: solid red 2px;}
   .skills-grid { grid-template-columns: repeat(3, 1fr); }
   .hero-scroll {opacity: 0;}
 }
@@ -1114,7 +1114,7 @@ footer p { color: var(--text-dim); font-size: 0.85rem; }
     border-radius: var(--radius);
     gap: 2px;
   }
-  .hero-inner { padding-left: 2vh;}
+  .hero-inner { padding-left: 2vh; opacity: 25%;}
   .menu-toggle { display: flex; }
   .bento-grid { grid-template-columns: repeat(2, 1fr); }
   .bento.size-lg,
