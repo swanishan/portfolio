@@ -250,9 +250,6 @@ nav {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  width: fit-content;
-  display: flex;
-  align-items: end;
   gap: 16px;
 }
 
@@ -1117,6 +1114,7 @@ footer p { color: var(--text-dim); font-size: 0.85rem; }
     border-radius: var(--radius);
     gap: 2px;
   }
+  .hero-inner { padding-left: 2vh;}
   .menu-toggle { display: flex; }
   .bento-grid { grid-template-columns: repeat(2, 1fr); }
   .bento.size-lg,
