@@ -1095,7 +1095,8 @@ footer p { color: var(--text-dim); font-size: 0.85rem; }
   .bento.size-wide   { grid-column: span 4; }
   .bento.size-square { grid-column: span 2; }
   .gallery-grid { grid-template-columns: repeat(3, 1fr); }
-  .hero-inner { grid-template-columns: 1fr; gap: 32px; justify-content: start; padding-left: 0; border: solid orange 2px;}
+  .hero {padding-top: 100px;}
+  .hero-inner { grid-template-columns: 1fr; gap: 32px; justify-content: start; padding-left: 0; border: solid var(--c-pink) 2px;}
   .hero-stat {height: 45vh; width: 30vh;}
   .skills-grid { grid-template-columns: repeat(3, 1fr); }
   .hero-scroll {opacity: 0;}
@@ -1117,6 +1118,7 @@ footer p { color: var(--text-dim); font-size: 0.85rem; }
     border-radius: var(--radius);
     gap: 2px;
   }
+  .hero {padding-top: 100px;}
   .hero-inner { padding-left: 0;}
   .hero-stat {height: 45vh; width: 30vh;}
   .menu-toggle { display: flex; }
