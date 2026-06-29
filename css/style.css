@@ -234,7 +234,7 @@ nav {
 .hero-lead {
   font-size: clamp(1.05rem, 1.4vw, 1.25rem);
   color: var(--text-dim);
-  max-width: 540px;
+  max-width: 400px;
 }
 
 .hero-lead .serif { color: var(--text); }
@@ -1100,9 +1100,29 @@ footer p { color: var(--text-dim); font-size: 0.85rem; }
   .hero-stat {height: 45vh; width: 30vh;}
   .skills-grid { grid-template-columns: repeat(3, 1fr); }
   .hero-scroll {opacity: 0;}
+
+  .bento:hover {
+    transform: none;
+  }
+
+  .bento:hover .bento-image img {
+    transform: none;
+  }
+
+  .bento:hover .bento-arrow {
+    background: rgba(255,255,255,0.05);
+    color: var(--text-dim);
+    border-color: var(--border);
+    transform: none;
+  }
 }
 
 @media (max-width: 760px) {
+  :root {
+    --radius: 12px;
+    --radius-lg: 12px;
+    --radius-sm: 12px;
+  }
   .container { padding: 0 20px; }
   nav { padding: 8px 8px 8px 16px; gap: 16px; }
   .nav-links { display: none; }
@@ -1134,11 +1154,14 @@ footer p { color: var(--text-dim); font-size: 0.85rem; }
   .gallery-item.size-tall,
   .gallery-item.size-wide { grid-column: span 2; grid-row: span 1; }
   .about-grid { grid-template-columns: 1fr; }
+  .case-cover {margin: 0;}
+  .case-image {margin: 0;}
   .case-info-grid { grid-template-columns: 1fr 1fr; gap: 16px; }
   .case-info-item { padding: 0; border-left: none; }
   .case-info-item:first-child { padding: 0; }
   .timeline-item { grid-template-columns: 1fr; gap: 4px; padding: 20px 0; }
-  .case-image-row { grid-template-columns: 1fr; }
+  .case-image-row { grid-template-columns: 1fr; margin: 0;}
+  .inside-mobile-padding {margin: 20px 0;}
   .case-nav { grid-template-columns: 1fr; }
   .about-bio-card, .about-status { padding: 28px; min-height: auto; }
   .skills-grid { grid-template-columns: repeat(2, 1fr); }
@@ -1146,6 +1169,21 @@ footer p { color: var(--text-dim); font-size: 0.85rem; }
   section { padding: 40px 0; }
   .cta-card { padding: 48px 24px; }
   footer .container { flex-direction: column; text-align: center; }
+
+  .bento:hover {
+    transform: none;
+  }
+
+  .bento:hover .bento-image img {
+    transform: none;
+  }
+
+  .bento:hover .bento-arrow {
+    background: rgba(255,255,255,0.05);
+    color: var(--text-dim);
+    border-color: var(--border);
+    transform: none;
+  }
 }
 
 /* ============================================================
